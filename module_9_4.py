@@ -31,7 +31,7 @@ write = get_advanced_writer('example.txt')
 write('Это строчка', ['А', 'это', 'уже', 'число', 5, 'в', 'списке'])
 print('\nЗадание 2')
 with open('example.txt', 'r', encoding='utf-8') as f:
-    print(f.read())
+    print(f.read()) #Вывод на печать содержимого файла для проверки работы кода
 
 
 # Метод __call__:
